@@ -17,6 +17,7 @@ minikube start
 ```
 
 Результат:
+
 ![Рисунок 1](iamges/../images/1.png)
 
 Флаг ```driver``` не был указан, потому что кроме docker на машине не установлено альтернатив.
@@ -35,6 +36,7 @@ docker images
 ```
 
 Результат выполнения:
+
 ![Рисунок 2](images/2.png)
 
 # Создание manifest.yaml
@@ -45,6 +47,7 @@ minikube kubectl -- run vault --image=hashicorp/vault --port=8200 -o yaml --dry-
 ```
 
 Результат выполнения:
+
 ![Рисунок 3](images/3.png)
 
 Пояснение ([docs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)):
@@ -77,6 +80,7 @@ minikube kubectl -- create -f manifest.yaml
 ```
 
 Результат:
+
 ![Рисунок 4](images/4.png)
 
 Проверить поды можно командой:
@@ -101,6 +105,7 @@ minikube kubectl -- port-forward service/vault 8200:8200
 - `8200:8200` - первое число - порт, по которому будет происходить доступ к приложению, второе - порт, который был открыт на этапе создания объекта.
 
 Результат:
+
 ![Рисунок 5](images/5.png)
 
 Теперь можно открыть приложение в браузере по адресу `localhost:8200`
@@ -116,6 +121,7 @@ minikube kubectl -- logs vault
 Для удобства вывода можно воспользоваться командой ```tail```:
 
 Результат:
+
 ![Рисунок 7](images/7.png)
 
 Теперь, найдя `root-token`, можно зайти в приложение:
