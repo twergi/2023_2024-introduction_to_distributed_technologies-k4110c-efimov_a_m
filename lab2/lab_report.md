@@ -110,4 +110,4 @@ minikube kubectl -- logs <pod-name>
 
 # Схема организации контейнеров
 
-![Рисунок 9](images/diagram.png)
+![Рисунок 5](images/diagram.png)
