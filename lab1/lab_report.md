@@ -6,7 +6,7 @@ Group: K4110c
 Author: Efimov Andrey Mikhailovich
 Lab: Lab1
 Date of create: 03.10.2023
-Date of finished: 
+Date of finished: 12.10.2023
 
 
 # Запуск Minikube
