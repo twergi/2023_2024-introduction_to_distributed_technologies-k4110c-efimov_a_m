@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: lab3-configmap
+data:
+  REACT_APP_USERNAME: custom_username
+  REACT_APP_COMPANY_NAME: custom_company_name
