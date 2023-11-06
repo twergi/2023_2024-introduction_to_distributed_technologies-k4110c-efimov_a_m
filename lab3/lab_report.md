@@ -4,7 +4,7 @@ Course: [Introduction to distributed technologies](https://github.com/itmo-ict-f
 Year: 2023/2024
 Group: K4110c
 Author: Efimov Andrey Mikhailovich
-Lab: Lab2
+Lab: Lab3
 Date of create: 02.11.2023
 Date of finished:
 
