@@ -6,7 +6,7 @@ Group: K4110c
 Author: Efimov Andrey Mikhailovich
 Lab: Lab3
 Date of create: 02.11.2023
-Date of finished:
+Date of finished: 09.11.2023
 
 
 В начале лабораторной работы стоит отметить, что за основу взяты манифесты, созданные в лабораторной работе №2.
